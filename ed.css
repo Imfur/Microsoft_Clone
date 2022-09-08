@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html, body {
+    height: 100%
+}
+.main-nav {
+    display: flex;
+    height: 54px;
+    padding: 0 62px;
+    align-items: center;
+} 
+.main-nav .logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+}
+.main-nav .logo img {
+    height: 24px;
+    display: block;
+    position: relative;
+    top: 6px;
+}
+.main-nav a {
+    display: block;
+    color: inherit;
+    text-underline-offset: 4px;
+    text-decoration: none;
+    padding: 16px 8px 10px;
+    
+}
+.main-nav a:hover {
+    text-decoration: underline;
+}
+.links {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+.left-links {
+    margin-left: auto;
+}
+.ad {
+    background-color: #0067b8;
+    height: 54px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main {
+    margin-top: 58px;
+    height: 500px;
+    padding: 0 20px;
+}
+.big-banner{
+    height: 464px;
+    background-color: #f2f2f2;
+    display: flex;
+    
+    
+}
+.big-banner .first-part, .big-banner .second-part{
+    flex: 1
+}
+.big-banner .first-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big-banner .first-part h1 {
+    font-size: 37px;
+    margin-bottom: 12px;
+}
+.big-banner .first-part p, .big-banner .first-part h1, .big-banner .first-part div {
+    max-width:480px;
+} 
+.big-banner .first-part p {
+    margin-bottom: 16px;
+}
+.big-banner .first-part button {
+    background-color: #0067b8;
+    color: #f2f2f2;
+    padding: 8px;
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.big-banner .first-part button a{
+text-decoration: none;
+color: #f2f2f2;
+}
+.first-partA a{
+text-decoration: none;
+color: #0067b8;
+padding-left: 10px;
+}
+.first-part{
+    position: absolute;
+    right: 5px;
+ 
+}
+.second-part{
+   margin-right: 100px;
+}
+.second-part img{
+    width: 60%;
+}
+.third-part{
+    margin-left: 20px;
+    width: 97%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.third-part ul{
+    text-align: center;
+}
+.third-part li{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 40px;
+}
+.third-part a{
+text-decoration: none;
+color: #0067b8;
+font-size: 20px;
+}
+.forth-part{
+background-color: aliceblue;
+}
+.forth-part ul{
+    
+}
+.forth-part li{
+    display: inline-block;
+    text-decoration: none;
+    width: 350px;
+}
