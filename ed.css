@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 html, body {
     height: 100%
@@ -52,10 +53,10 @@ html, body {
     align-items: center;
 
 }
-main {
+.ba main {
     margin-top: 58px;
     height: 500px;
-    padding: 0 20px;
+    padding: 0 0px;
 }
 .big-banner{
     height: 464px;
@@ -70,18 +71,20 @@ main {
 .big-banner .first-part {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    height: 200px;
+   
 }
 .big-banner .first-part h1 {
     font-size: 37px;
     margin-bottom: 12px;
 }
 .big-banner .first-part p, .big-banner .first-part h1, .big-banner .first-part div {
-    max-width:480px;
+    max-width:500px;
 } 
 .big-banner .first-part p {
-    margin-bottom: 16px;
+    margin-bottom: 5px;
+    padding: 5 5px;
 }
 .big-banner .first-part button {
     background-color: #0067b8;
@@ -103,14 +106,15 @@ padding-left: 10px;
 }
 .first-part{
     position: absolute;
-    right: 5px;
+    right: 10px;
+    bottom: 100px;
  
 }
 .second-part{
    margin-right: 100px;
 }
 .second-part img{
-    width: 60%;
+    width: 50%;
 }
 .third-part{
     margin-left: 20px;
@@ -135,13 +139,76 @@ color: #0067b8;
 font-size: 20px;
 }
 .forth-part{
-background-color: aliceblue;
+    padding: 0 0 40PX;
 }
-.forth-part ul{
-    
+.forth-part img{
+    width: 300px;
 }
 .forth-part li{
     display: inline-block;
     text-decoration: none;
-    width: 350px;
+    width: 320px;
+}
+.forth-part a{
+    color: #0067b8;
+    font-size: 20px;
+}
+#ab main {
+    margin-top: 58px;
+    height: 500px;
+    padding: 30 20 20 20px;
+}
+.big-bannerA{
+    height: 464px;
+    background-color: #f2f2f2;
+    display: flex;
+    
+}
+.big-bannerA .first-partB, .big-bannerA .second-partA{
+    flex: 1
+}
+.big-bannerA .first-partB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big-bannerA .first-partB h1 {
+    font-size: 37px;
+    margin-bottom: 12px;
+}
+.big-bannerA .first-partB p, .big-bannerA .first-partB h1, .big-bannerA .first-partB div {
+    max-width:500px;
+} 
+.big-bannerA .first-partB p {
+    margin-bottom: 5px;
+}
+.big-bannerA .first-partB button {
+    background-color: #0067b8;
+    color: #f2f2f2;
+    padding: 8px;
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.big-bannerA .first-partB button a{
+text-decoration: none;
+color: #f2f2f2;
+}
+.first-partC a{
+text-decoration: none;
+color: #0067b8;
+padding-left: 10px;
+}
+.first-partB{
+    position: relative;
+    right: 5px;
+ 
+}
+.second-partA{
+   margin-right: 100px;
+}
+.second-partA img{
+    width: 60%;
 }
