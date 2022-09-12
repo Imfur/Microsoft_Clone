@@ -142,7 +142,10 @@ font-size: 20px;
     padding: 0 0 40PX;
 }
 .forth-part img{
-    width: 300px;
+    width: 310px;
+}
+.forth-part h1{
+    font-size: 24px;
 }
 .forth-part li{
     display: inline-block;
@@ -151,7 +154,8 @@ font-size: 20px;
 }
 .forth-part a{
     color: #0067b8;
-    font-size: 20px;
+    font-size: 17px;
+    text-decoration: none;
 }
 #ab main {
     margin-top: 58px;
@@ -167,6 +171,9 @@ font-size: 20px;
 .big-bannerA .first-partB, .big-bannerA .second-partA{
     flex: 1
 }
+#ab .big-bannerA .first-partB .second-partA{
+    max-width: 80%;
+} 
 .big-bannerA .first-partB {
     display: flex;
     justify-content: center;
@@ -218,27 +225,31 @@ footer{
     
 }
 .container{
-margin: auto;
 padding-top: 40px;
 }
 .footer-col ul{
     list-style: none;
 }
 .row{
-     display: flex;
-     flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer-col{
-    width: 15%;
+    max-width: 15%;
     padding: 0 20px;
 }
-.footer-col ul li{
+.footer-col li{
     text-decoration: none;
 }
 @media only screen and (max-width:700px){
 *{
     padding: auto;
     margin: auto;
+}
+.ad p{
+ font-size: 13px;
+ height: 30px;
+ padding: 5px;
 }
 .main-nav .links .logo{
     width: 90%;
@@ -256,7 +267,7 @@ padding-top: 40px;
     font-size: small;
 }
 .first-part{
-    margin-bottom: 350px;
+    padding: 52px;
 }
 .second-part img{
     width: 80%;
@@ -264,13 +275,39 @@ padding-top: 40px;
 .third-part{
     width: 90%;
     height: 50%;
+    margin-top: 200px;
     display: flex;
 }
 .third-part li{
     display: inline-block;
 }
-.container{
-    width: 90%;
+.forth-part ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+.container{
+}
+.row{
+}
+.footer-col{
+   width: 100%;
+   padding: 15px;
+   margin-right: 110px;
+}
+.footer-col li{
+    display: flex;
+    display: inline;
+
+}
+.first-partB h1{
+
+
+}
+#ab .big-bannerA .first-partB h1{
+    font-size: 13px;
+} 
+#ab .big-bannerA .first-partB p{
+    font-size: 12px;
+} 
 
 }
