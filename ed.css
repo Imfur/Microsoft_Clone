@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
 }
 html, body {
     height: 100%
@@ -118,7 +118,7 @@ padding-left: 10px;
 }
 .third-part{
     margin-left: 20px;
-    width: 97%;
+    max-width: 97%;
     height: 200px;
     display: flex;
     position: relative;
@@ -211,4 +211,66 @@ padding-left: 10px;
 }
 .second-partA img{
     width: 60%;
+}
+footer{
+    background-color:#f2f2f2;
+    padding: 10px 0;
+    
+}
+.container{
+margin: auto;
+padding-top: 40px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.row{
+     display: flex;
+     flex-wrap: wrap;
+}
+.footer-col{
+    width: 15%;
+    padding: 0 20px;
+}
+.footer-col ul li{
+    text-decoration: none;
+}
+@media only screen and (max-width:700px){
+*{
+    padding: auto;
+    margin: auto;
+}
+.main-nav .links .logo{
+    width: 90%;
+    margin: auto;
+
+}
+.main-nav a{
+    display: none;
+}
+.big-banner h1{
+    font-size: 15px;
+}
+.big-banner p{
+    width: 90%;
+    font-size: small;
+}
+.first-part{
+    margin-bottom: 350px;
+}
+.second-part img{
+    width: 80%;
+}
+.third-part{
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+.third-part li{
+    display: inline-block;
+}
+.container{
+    width: 90%;
+}
+
 }
